@@ -4,9 +4,7 @@ function App() {
     const [dane, setDane] = useState({
       podanaLiczba1: 0,
       podanaLiczba2: 0,
-      opcja: "nr1",
-      stan: false,
-      wynikSt: 0
+      opcja: "nr1"
     }) 
 
     function oblicz()
